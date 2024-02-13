@@ -73,5 +73,9 @@
       "type": "Buy me a coffee",
       "url": "https://www.buymeacoffee.com/sanidhy"
     }
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
 }

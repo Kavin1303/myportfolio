@@ -7,23 +7,32 @@ const ThemeContextProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    window.localStorage.setItem("theme", newTheme);
-    document.documentElement.classList.toggle("dark", newTheme === "dark");
+    if (theme === "light") {
+      setTheme("dark");
+      window.localStorage.setItem("theme", "dark");
+      document.documentElement.classList.add("dark");
+    } else {
+      setTheme("light");
+      window.localStorage.setItem("theme", "light");
+      document.documentElement.classList.remove("dark");
+    }
   };
 
   useEffect(() => {
     const localTheme = window.localStorage.getItem("theme");
+  
     if (localTheme) {
       setTheme(localTheme);
-      document.documentElement.classList.toggle("dark", localTheme === "dark");
+  
+      if (localTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      }
     } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
       document.documentElement.classList.add("dark");
     }
   }, []);
-
+  
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}
