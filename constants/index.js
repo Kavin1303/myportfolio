@@ -40,7 +40,7 @@ export const EXTRA_LINKS = {
   linkedin: "https://www.linkedin.com/in/kavin-prasath-18b2b224a/",
   github: "https://github.com/Kavin1303",
   resume: "/resume.pdf",
-  source_code: "https://github.com/Kavin1303/portfolio",
+  source_code: "https://github.com/Kavin1303/myportfolio",
   email: "jkavinprasath1303@gmail.com",
 };
 
