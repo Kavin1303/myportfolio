@@ -69,9 +69,8 @@ const Intro = () => {
       >
         <b className="font-bold">Hi, I&apos;m {OWNER_NAME.split(" ")[0]}.</b>{" "}
         I&apos;m a <b className="font-bold">full-stack developer</b> with{" "}
-        <b className="font-bold">5+ years</b> of experience. I enjoy building{" "}
-        <b className="italic">sites and apps</b>. My focus is{" "}
-        <b className="underline">React (Next.js)</b>
+        a quick learning curve. I enjoy building{" "}
+        <b className="italic">sites</b>.
       </motion.h1>
 
       <motion.div

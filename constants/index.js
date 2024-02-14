@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
-import carhubImg from "../public/carhub.png";
+import parkinsonImg from "../public/pd.jpg";
 import ecommerceImg from "../public/ecommerce.png";
 
 
@@ -47,20 +47,28 @@ export const EXTRA_LINKS = {
 // Data for work experience
 export const EXPERIENCES_DATA = [
   {
+    title: "High school",
+    location: "Erode, Tamil Nadu, IN",
+    description:
+      "Completed high school gaining a solid foundation on essential skills for future",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017",
+  },
+  {
+    title: "Master's Degree",
+    location: "IIITA,Prayagraj, Uttar Pradesh, IN",
+    description:
+      "Currently Pursuing M.tech in Information Technology specialization-Bioinformatics honing my skills in software development to begin career in IT",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - present",
+  },
+  {
     title: "Web Development Bootcamp",
     location: "IIITA, Prayagraj, Uttar Pradesh, IN",
     description:
       "Successfully completed an intensive 1-month Web Development Bootcamp. Acquired expertise in React components, state management with Redux, Creating and interacting with RESTful APIs.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
-  },
-  {
-    title: "Teaching Assitant",
-    location: "IIITA,Prayagraj, Uttar Pradesh, IN",
-    description:
-      "Working as a TEaching Assitant to professors and provideng them in assitance for organizing and conduting lab and tutorial sessions for Physics and Python",
-    icon: React.createElement(FaReact),
-    date: "2022 - present",
   },
 ];
 
@@ -72,15 +80,15 @@ export const PROJECTS_DATA = [
       "A MERN stack based eCommerce store that allows users to order different products amd post reviews. It supports real-time payments using Stripe.",
     tags: ["React", "Node.js", "MongoDB", "Express", "React Router", "Stripe"],
     imageUrl: ecommerceImg,
-    projectUrl: "https://ecommerce-app-next.vercel.app/",
+    projectUrl: "https://github.com/Kavin1303/ecommerce",
   },
   {
     title: "Parkinson Disease Prediction",
     description:
       "A Machine learning model to predict parkinson disease based on patient's voice data analysis",
     tags: ["Python","Pandas","Logistic Regression","K-Nearest Neighbour","Random Forest"],
-    imageUrl: carhubImg,
-    projectUrl: "https://carhb.vercel.app/",
+    imageUrl: parkinsonImg,
+    projectUrl: "https://github.com/Kavin1303/Parkinson-Predictor",
   },
 ];
 
