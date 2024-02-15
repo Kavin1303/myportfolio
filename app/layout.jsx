@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 // site metadata
 export const metadata = {
   title: `${OWNER_NAME.split(" ")[0]} | Personal Portfolio`,
-  description: `${OWNER_NAME.split(" ")[0]} is a full-stack developer with 4 years of experience.`,
+  description: `${OWNER_NAME.split(" ")[0]} is a full-stack developer.`,
   authors: {
     name: OWNER_NAME,
     url: EXTRA_LINKS.github,
