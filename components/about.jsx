@@ -26,19 +26,17 @@ const About = () => {
       <SectionHeading>About me</SectionHeading>
 
       {/* Display a paragraph with information about the user's background and interests. */}
-      <p className="mb-3">
-        After passing out my <b className="font-medium">bachelor's degree</b>, I
-        decided to pursue my passion for software development. I enrolled in a M.Tech in IIITA
-        and joined in bootcamps and online courses to learn{" "}
-        <b className="font-medium">full-stack web development</b>.{" "}
-        <i className="italic">My favorite part of programming</i> is the
-        problem-solving aspect. I <u className="underline">love</u> the feeling
-        of finally figuring out a solution to a problem. My core stack is{" "}
-        <b className="font-medium">React, Next.js, Node.js, and MongoDB</b>. I
-        am also interested in competitive programming using c++ and python.I am also a machine learning and deep learning enthusiast I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <b className="font-medium">full-time position</b> as a software
-        developer.
+      <p>
+        Following my graduation with a bachelor's degree, my journey led me to delve deeper into 
+        the world of technology. Fueled by a burgeoning passion for software development, 
+        I embarked on an M.Tech program at IIITA, supplementing my formal education with bootcamps 
+        and online courses to master <b>full-stack web development</b>. 
+        The allure of programming for me lies in the thrill of problem-solving.
+        there's an unparalleled satisfaction in unraveling complex challenges. 
+        My expertise lies in <b>Backend Development</b>. 
+        Beyond these, I venture into the realms of competitive programming with C++ and Python, and I'm also deeply fascinated by the potentials of <i>machine learning and deep learning</i>.
+        I'm on a constant quest to expand my technical skills, seeking a <b>Oppurtunity</b> 
+        where I can contribute my skills as a software developer and continue to grow.
       </p>
 
       {/* Display another paragraph about the user's interests and hobbies. */}
