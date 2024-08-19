@@ -85,8 +85,8 @@ export const PROJECTS_DATA = [
   {
     title: "Parkinson Disease Prediction",
     description:
-      "A Machine learning model to predict parkinson disease based on patient's voice data analysis",
-    tags: ["Python","Pandas","Logistic Regression","K-Nearest Neighbour","Random Forest"],
+      "A CNN model to predict parkinson disease based on patient's voice data analysis",
+    tags: ["Python","Pandas","CNN","GAN","Regularisation","Cross Validation"],
     imageUrl: parkinsonImg,
     projectUrl: "https://github.com/Kavin1303/Parkinson-Predictor",
   },
